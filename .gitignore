@@ -1,0 +1,12 @@
+# Ignore node_modules
+ExpenseTracker/node_modules
+internship-node/node_modules
+
+# Logs
+*.log
+
+# ENV files
+*.env
+
+# Build output
+ExpenseTracker/build/
