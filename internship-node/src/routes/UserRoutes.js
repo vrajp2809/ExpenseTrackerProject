@@ -9,7 +9,6 @@ routes.put("/updateUser/:id", upload.single("image"), userController.updateUser)
 routes.get("/users",userController.getAllUser)
 routes.get("/user/:id",userController.getUserById)
 routes.delete("/user/:id",userController.deleteUser)
-// routes.post("/user",userController.addUser)
 routes.post("/user",userController.signup)
 routes.post("/user/login",userController.loginUser)
 routes.post("/addWithProfile", userController.addUserWithProfile);
