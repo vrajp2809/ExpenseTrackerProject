@@ -148,29 +148,3 @@ export const Signup = () => {
   );
 };
 
-
-
-
-{/* <Box className="background-radial-gradient" display="flex" flexDirection="column" alignItems="center" justifyContent="center" minHeight="100vh" p={3}>
-      <Typography variant="h3" className="expense-tracker-title">Expense Tracker</Typography>
-      <Card className="bg-glass" sx={{ maxWidth: 500, p: 3 }}>
-        <Typography variant="h4" className="signup-title">Sign Up</Typography>
-        <CardContent>
-          <form onSubmit={handleSubmit(submitHandler)}>
-            <Box display="flex" gap={2} mb={2}>
-              <TextField {...register("firstName")} label="First Name" fullWidth variant="outlined" size="small" />
-              <TextField {...register("lastName")} label="Last Name" fullWidth variant="outlined" size="small" />
-            </Box>
-            <TextField {...register("age")} label="Age" type="number" fullWidth variant="outlined" size="small" margin="dense" />
-            <TextField {...register("email")} label="Email" type="email" fullWidth variant="outlined" size="small" margin="dense" />
-            <TextField {...register("password")} label="Password" type="password" fullWidth variant="outlined" size="small" margin="dense" />
-            <TextField type="file" fullWidth variant="outlined" size="small" margin="dense" inputProps={{ accept: "image/*" }} onChange={handleImageChange} />
-            <Button type="submit" variant="contained" color="primary" fullWidth sx={{ mt: 2 }}>Sign Up</Button>
-          </form>
-          <Typography variant="body2" sx={{ mt: 2 }}>
-            Already have an account? <Link to="/login">Login</Link>
-          </Typography>
-        </CardContent>
-      </Card>
-      <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} closeOnClick pauseOnHover draggable theme="light" transition={Bounce} />
-    </Box> */}
