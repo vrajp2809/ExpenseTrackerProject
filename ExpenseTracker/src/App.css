@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+:root {
+  --bg-color: #121212; /* Dark background */
+  --sidebar-bg: #1E1E1E; /* Sidebar background */
+  --text-color: #E0E0E0; /* Light text */
+  --nav-bg: #1E1E1E; /* Navbar background */
+  --card-bg: #242424; /* Card background */
+  --border-color: #333; /* Border color */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.custom-navbar {
+  background-color: var(--nav-bg) !important;
+  color: var(--text-color);
+}
+
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+  color: var(--text-color);
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+/* Table Dark Mode */
+.table {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+.table th, .table td {
+  border-color: var(--border-color);
+}
+
+/* Button Styling */
+.btn {
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+/* Links */
+a {
+  color: #BB86FC; /* Light purple for contrast */
+}
+
+a:hover {
+  color: #9E7BFF;
+}

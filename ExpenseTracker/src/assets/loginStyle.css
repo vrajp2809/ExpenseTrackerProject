@@ -1,0 +1,89 @@
+.background-radial-gradient {
+    background: radial-gradient(circle at 50% 50%, hsl(218, 81%, 95%), hsl(218, 81%, 75%));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* Aligns items in a column */
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+    width: 100vw;
+    padding: 20px;
+}
+
+.expense-tracker-title {
+    font-size: 3rem; /* Increased size for more impact */
+    font-weight: bold;
+    color: hsl(218, 81%, 25%); /* Darker shade for emphasis */
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Arial Black', sans-serif; /* More distinct font */
+}
+
+.signup-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(218, 81%, 30%);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px; 
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 37px;
+}
+
+.card-body .form-control {
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+
+/* .background-radial-gradient {
+    background: radial-gradient(circle at 50% 50%, rgba(238, 240, 255, 0.9), rgba(195, 207, 226, 0.7));
+} */
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px); /* Ensures compatibility with Safari */
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 37px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds some depth */
+}
